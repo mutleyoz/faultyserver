@@ -1,0 +1,14 @@
+d:\Development\aspnetcore\faultyserver\bin\Debug\netcoreapp2.1\faultyserver.deps.json
+d:\Development\aspnetcore\faultyserver\bin\Debug\netcoreapp2.1\faultyserver.runtimeconfig.json
+d:\Development\aspnetcore\faultyserver\bin\Debug\netcoreapp2.1\faultyserver.runtimeconfig.dev.json
+d:\Development\aspnetcore\faultyserver\bin\Debug\netcoreapp2.1\faultyserver.dll
+d:\Development\aspnetcore\faultyserver\bin\Debug\netcoreapp2.1\faultyserver.pdb
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.csprojAssemblyReference.cache
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.csproj.CoreCompileInputs.cache
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.RazorAssemblyInfo.cache
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.RazorAssemblyInfo.cs
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.AssemblyInfoInputs.cache
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.AssemblyInfo.cs
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.RazorTargetAssemblyInfo.cache
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.dll
+d:\Development\aspnetcore\faultyserver\obj\Debug\netcoreapp2.1\faultyserver.pdb
