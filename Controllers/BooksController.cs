@@ -15,8 +15,6 @@ namespace FaultyServer.Controllers
     {
         private readonly ILogger _logger;
         private readonly BooksContext _context;
-        private static volatile int Counter;
-
         public BooksController(ILogger<BooksController> logger, BooksContext context)
         {
             _logger = logger;
@@ -25,18 +23,18 @@ namespace FaultyServer.Controllers
             if(_context.Books.Count() == 0)
             {
                 _context.Books.Add( new Book { Title = "The Dark Tower", Author = "Stephen King" });
+                _context.Books.Add( new Book { Title = "The Thief of Always", Author = "Clive Barker" });
                 _context.SaveChanges();
             }
         }
 
         [HttpGet]
-        public async Task<ActionResult<List<Book>>> GetAll()
+        public ActionResult<List<Book>> GetAll()
         {
-            _logger.LogInformation("GetAll");
+            _logger.LogInformation("{nameof(this.Name)}");
 
-            if(Interlocked.Increment(ref Counter) % 2 == 0)
+            if(( DateTime.Now.Second % 10 ) > 5)
             {
-                await Task.Delay(3000);
                 return StatusCode(500);
             }
             return _context.Books.ToList();
